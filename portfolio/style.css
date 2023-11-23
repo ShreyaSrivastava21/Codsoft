@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    position: relative;
+    overflow: hidden;
+
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+#page>img{
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    transform: translateY(-50%);
+    max-width: 50%;
+    max-height: 60%;
+    width: 25%;
+
+
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px  30px;
+
+
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: indigo;
+    
+}
+#center_nav{
+    display: flex;
+    gap: 200px;
+
+}
+#center_nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
+#center_nav>a:hover{
+    color: cadetblue;
+    
+}
+
+
+
+#text{
+    position: relative;
+    top: 40%;
+    left: 18%;
+    height: 50%;
+    width: 35%;
+    background-color: white;
+}
+#text>h1{
+    font-size: 60px;
+    line-height: 1;
+    color: blueviolet;
+}
+#text>h4{
+    margin-top: 20px;
+    color:black;
+    font-size: 30px;
+}
+#butttons{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    
+
+}
+#buttons>button{
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#buttons>#b1{
+    margin-left: 70px;
+    margin-top: 85px;
+    background-color: darkblue;
+    color: white;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: indigo;
+} 
+#page1>#left{
+    position: relative;
+    left: 5%;
+    top: 55%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 35%;
+    background-color: indigo;
+}   
+#left>.box{
+    height: 30%;
+    width: 100%;
+    background-color: indigo;
+    border-top: 2px solid rgb(198, 193, 193);
+
+}
+#left>.box>h1{
+    color: white;
+}
+#left>.box>h4{
+    margin-top: 10px;
+    
+
+    color: rgb(198, 193, 193);
+}
+#right>.box{
+    height: 30%;
+    width: 100%;
+    background-color: indigo;
+    
+
+}
+#right>.newbox>h1{
+    margin-left: 780px;
+    margin-bottom: 10px;
+    color: white;
+    
+    margin-bottom:10px;
+    
+}
+
+#right>.newbox>h4{
+    margin-left: 780px;
+    color: white;
+}
